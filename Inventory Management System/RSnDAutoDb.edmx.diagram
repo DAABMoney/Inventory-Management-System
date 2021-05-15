@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="85fc9d0b26f24298b9beacf674e32785" Name="Diagram1" ZoomLevel="55">
+        <EntityTypeShape EntityType="RSnDAutoModel.Customer_Info" Width="1.5" PointX="1.125" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RSnDAutoModel.Invoice" Width="1.5" PointX="3.5" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="RSnDAutoModel.Order" Width="1.5" PointX="3.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="RSnDAutoModel.Product" Width="1.5" PointX="6.375" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="RSnDAutoModel.Supplier" Width="1.5" PointX="8.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="RSnDAutoModel.sysdiagram" Width="1.5" PointX="10.75" PointY="1.75" IsExpanded="false" />
+        <AssociationConnector Association="RSnDAutoModel.FK_Invoice_Customer_Info" ManuallyRouted="false" />
+        <AssociationConnector Association="RSnDAutoModel.FK_Orders_Customer_Info" ManuallyRouted="false" />
+        <AssociationConnector Association="RSnDAutoModel.FK_Orders_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="RSnDAutoModel.FK_Supplier_Product" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="RSnDAutoModel.Login" Width="1.5" PointX="12.125" PointY="4.875" />
+        <AssociationConnector Association="RSnDAutoModel.FK_Supplier_Product1" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
