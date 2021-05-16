@@ -198,7 +198,7 @@ namespace Inventory_Management_System
         {
             try
             {
-                ID = int.Parse(gvadddeleteuser.Rows[e.RowIndex].Cells[0].Value.ToString());
+                ID = int.Parse(gvadddeleteuser.Rows[e.RowIndex].Cells[0].Value.ToString()); 
                 txtFirstNm.Text = gvadddeleteuser.Rows[e.RowIndex].Cells[1].Value.ToString();
                 txtLastNm.Text = gvadddeleteuser.Rows[e.RowIndex].Cells[2].Value.ToString();
                 txtUserNm.Text = gvadddeleteuser.Rows[e.RowIndex].Cells[3].Value.ToString();
