@@ -165,21 +165,7 @@ namespace Inventory_Management_System
 
         private void gvadddeleteuser_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            try
-            {
-                ID = int.Parse(gvadddeleteuser.Rows[e.RowIndex].Cells[0].Value.ToString());
-                txtFirstNm.Text = gvadddeleteuser.Rows[e.RowIndex].Cells[1].Value.ToString();
-                txtLastNm.Text = gvadddeleteuser.Rows[e.RowIndex].Cells[2].Value.ToString();
-                txtUserNm.Text = gvadddeleteuser.Rows[e.RowIndex].Cells[3].Value.ToString();
-                txtPswrd.Text = gvadddeleteuser.Rows[e.RowIndex].Cells[4].Value.ToString();
-                txtCfmpswrd.Text = gvadddeleteuser.Rows[e.RowIndex].Cells[5].Value.ToString();
-                combobxRole.Text = gvadddeleteuser.Rows[e.RowIndex].Cells[6].Value.ToString();
-
-            }
-            catch
-            {
-                MessageBox.Show("Check Information", "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            
         }
         public void displayData()
         {
@@ -205,6 +191,25 @@ namespace Inventory_Management_System
                 lbmatch.ForeColor = System.Drawing.Color.Red;
                 lbmatch.Text = "Password Does not Match";
 
+            }
+        }
+
+        private void gvadddeleteuser_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            try
+            {
+                ID = int.Parse(gvadddeleteuser.Rows[e.RowIndex].Cells[0].Value.ToString());
+                txtFirstNm.Text = gvadddeleteuser.Rows[e.RowIndex].Cells[1].Value.ToString();
+                txtLastNm.Text = gvadddeleteuser.Rows[e.RowIndex].Cells[2].Value.ToString();
+                txtUserNm.Text = gvadddeleteuser.Rows[e.RowIndex].Cells[3].Value.ToString();
+                txtPswrd.Text = gvadddeleteuser.Rows[e.RowIndex].Cells[4].Value.ToString();
+                txtCfmpswrd.Text = gvadddeleteuser.Rows[e.RowIndex].Cells[5].Value.ToString();
+                combobxRole.Text = gvadddeleteuser.Rows[e.RowIndex].Cells[6].Value.ToString();
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Check Information", "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
     }

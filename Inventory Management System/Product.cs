@@ -88,7 +88,7 @@ namespace Inventory_Management_System
                 if (i != 0)
                 {
 
-                    MessageBox.Show("Customer Information Updated", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    MessageBox.Show("Information Updated", "Message", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     btnReset_Click(sender, e);
 
                 }

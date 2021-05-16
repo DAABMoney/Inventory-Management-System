@@ -100,6 +100,7 @@ namespace Inventory_Management_System
             this.gvadddeleteuser.Size = new System.Drawing.Size(524, 168);
             this.gvadddeleteuser.TabIndex = 86;
             this.gvadddeleteuser.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gvadddeleteuser_CellContentClick);
+            this.gvadddeleteuser.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gvadddeleteuser_CellDoubleClick);
             // 
             // tableLayoutPanel3
             // 
@@ -108,7 +109,7 @@ namespace Inventory_Management_System
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 45.85366F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 109F));
             this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 111F));
-            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 132F));
+            this.tableLayoutPanel3.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 134F));
             this.tableLayoutPanel3.Controls.Add(this.btnAdd, 0, 0);
             this.tableLayoutPanel3.Controls.Add(this.btnClose, 4, 0);
             this.tableLayoutPanel3.Controls.Add(this.btnUpdate, 1, 0);
@@ -142,7 +143,7 @@ namespace Inventory_Management_System
             this.btnClose.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnClose.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClose.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnClose.Location = new System.Drawing.Point(439, 3);
+            this.btnClose.Location = new System.Drawing.Point(437, 3);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(94, 32);
             this.btnClose.TabIndex = 107;
@@ -156,7 +157,7 @@ namespace Inventory_Management_System
             this.btnUpdate.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnUpdate.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnUpdate.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnUpdate.Location = new System.Drawing.Point(120, 3);
+            this.btnUpdate.Location = new System.Drawing.Point(119, 3);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(88, 32);
             this.btnUpdate.TabIndex = 83;
@@ -170,7 +171,7 @@ namespace Inventory_Management_System
             this.btnDelete.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnDelete.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDelete.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnDelete.Location = new System.Drawing.Point(219, 3);
+            this.btnDelete.Location = new System.Drawing.Point(217, 3);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(89, 32);
             this.btnDelete.TabIndex = 84;
@@ -184,7 +185,7 @@ namespace Inventory_Management_System
             this.btnReset.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnReset.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReset.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.btnReset.Location = new System.Drawing.Point(328, 3);
+            this.btnReset.Location = new System.Drawing.Point(326, 3);
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(96, 32);
             this.btnReset.TabIndex = 85;
@@ -217,7 +218,7 @@ namespace Inventory_Management_System
             // 
             this.lbLastNm.AutoSize = true;
             this.lbLastNm.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbLastNm.Location = new System.Drawing.Point(3, 44);
+            this.lbLastNm.Location = new System.Drawing.Point(3, 43);
             this.lbLastNm.Name = "lbLastNm";
             this.lbLastNm.Size = new System.Drawing.Size(76, 19);
             this.lbLastNm.TabIndex = 114;
@@ -227,7 +228,7 @@ namespace Inventory_Management_System
             // 
             this.lbUserNm.AutoSize = true;
             this.lbUserNm.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbUserNm.Location = new System.Drawing.Point(3, 88);
+            this.lbUserNm.Location = new System.Drawing.Point(3, 86);
             this.lbUserNm.Name = "lbUserNm";
             this.lbUserNm.Size = new System.Drawing.Size(79, 19);
             this.lbUserNm.TabIndex = 115;
@@ -237,7 +238,7 @@ namespace Inventory_Management_System
             // 
             this.lbPassword.AutoSize = true;
             this.lbPassword.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbPassword.Location = new System.Drawing.Point(338, 0);
+            this.lbPassword.Location = new System.Drawing.Point(336, 0);
             this.lbPassword.Name = "lbPassword";
             this.lbPassword.Size = new System.Drawing.Size(69, 19);
             this.lbPassword.TabIndex = 116;
@@ -247,7 +248,7 @@ namespace Inventory_Management_System
             // 
             this.lbCfmPswrd.AutoSize = true;
             this.lbCfmPswrd.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbCfmPswrd.Location = new System.Drawing.Point(338, 44);
+            this.lbCfmPswrd.Location = new System.Drawing.Point(336, 43);
             this.lbCfmPswrd.Name = "lbCfmPswrd";
             this.lbCfmPswrd.Size = new System.Drawing.Size(122, 19);
             this.lbCfmPswrd.TabIndex = 117;
@@ -256,7 +257,7 @@ namespace Inventory_Management_System
             // lbRole
             // 
             this.lbRole.AutoSize = true;
-            this.lbRole.Location = new System.Drawing.Point(338, 88);
+            this.lbRole.Location = new System.Drawing.Point(336, 86);
             this.lbRole.Name = "lbRole";
             this.lbRole.Size = new System.Drawing.Size(37, 19);
             this.lbRole.TabIndex = 118;
@@ -269,14 +270,14 @@ namespace Inventory_Management_System
             this.combobxRole.Items.AddRange(new object[] {
             "Admin",
             "Client"});
-            this.combobxRole.Location = new System.Drawing.Point(469, 91);
+            this.combobxRole.Location = new System.Drawing.Point(467, 89);
             this.combobxRole.Name = "combobxRole";
             this.combobxRole.Size = new System.Drawing.Size(160, 27);
             this.combobxRole.TabIndex = 119;
             // 
             // txtUserNm
             // 
-            this.txtUserNm.Location = new System.Drawing.Point(109, 91);
+            this.txtUserNm.Location = new System.Drawing.Point(109, 89);
             this.txtUserNm.Name = "txtUserNm";
             this.txtUserNm.Size = new System.Drawing.Size(180, 26);
             this.txtUserNm.TabIndex = 120;
@@ -290,7 +291,7 @@ namespace Inventory_Management_System
             // 
             // txtPswrd
             // 
-            this.txtPswrd.Location = new System.Drawing.Point(469, 3);
+            this.txtPswrd.Location = new System.Drawing.Point(467, 3);
             this.txtPswrd.Name = "txtPswrd";
             this.txtPswrd.PasswordChar = '*';
             this.txtPswrd.Size = new System.Drawing.Size(160, 26);
@@ -298,14 +299,14 @@ namespace Inventory_Management_System
             // 
             // txtLastNm
             // 
-            this.txtLastNm.Location = new System.Drawing.Point(109, 47);
+            this.txtLastNm.Location = new System.Drawing.Point(109, 46);
             this.txtLastNm.Name = "txtLastNm";
             this.txtLastNm.Size = new System.Drawing.Size(180, 26);
             this.txtLastNm.TabIndex = 123;
             // 
             // txtCfmpswrd
             // 
-            this.txtCfmpswrd.Location = new System.Drawing.Point(469, 47);
+            this.txtCfmpswrd.Location = new System.Drawing.Point(467, 46);
             this.txtCfmpswrd.Name = "txtCfmpswrd";
             this.txtCfmpswrd.PasswordChar = '*';
             this.txtCfmpswrd.Size = new System.Drawing.Size(160, 26);
@@ -319,7 +320,7 @@ namespace Inventory_Management_System
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 68.17043F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 131F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 172F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 138F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 140F));
             this.tableLayoutPanel1.Controls.Add(this.lbmatch, 4, 1);
             this.tableLayoutPanel1.Controls.Add(this.lbFirstNm, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.txtUserNm, 1, 2);
@@ -339,7 +340,7 @@ namespace Inventory_Management_System
             this.tableLayoutPanel1.RowCount = 3;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 42F));
+            this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 44F));
             this.tableLayoutPanel1.Size = new System.Drawing.Size(777, 131);
             this.tableLayoutPanel1.TabIndex = 125;
             // 
@@ -347,7 +348,7 @@ namespace Inventory_Management_System
             // 
             this.lbmatch.AutoSize = true;
             this.lbmatch.Font = new System.Drawing.Font("Times New Roman", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbmatch.Location = new System.Drawing.Point(641, 44);
+            this.lbmatch.Location = new System.Drawing.Point(639, 43);
             this.lbmatch.Name = "lbmatch";
             this.lbmatch.Size = new System.Drawing.Size(19, 15);
             this.lbmatch.TabIndex = 126;

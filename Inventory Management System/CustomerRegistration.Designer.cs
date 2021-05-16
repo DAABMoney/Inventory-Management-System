@@ -794,7 +794,7 @@ namespace Inventory_Management_System
             this.tableLayoutPanel8.ColumnCount = 3;
             this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 46.60194F));
             this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 53.39806F));
-            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 334F));
+            this.tableLayoutPanel8.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 336F));
             this.tableLayoutPanel8.Controls.Add(this.Btnsubmit, 0, 0);
             this.tableLayoutPanel8.Controls.Add(this.Btnreset, 1, 0);
             this.tableLayoutPanel8.Controls.Add(this.BtnCloseFrom, 2, 0);
@@ -812,7 +812,7 @@ namespace Inventory_Management_System
             this.Btnreset.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Btnreset.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Btnreset.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.Btnreset.Location = new System.Drawing.Point(144, 3);
+            this.Btnreset.Location = new System.Drawing.Point(143, 3);
             this.Btnreset.Name = "Btnreset";
             this.Btnreset.Size = new System.Drawing.Size(107, 29);
             this.Btnreset.TabIndex = 61;
@@ -826,7 +826,7 @@ namespace Inventory_Management_System
             this.BtnCloseFrom.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.BtnCloseFrom.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnCloseFrom.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.BtnCloseFrom.Location = new System.Drawing.Point(305, 3);
+            this.BtnCloseFrom.Location = new System.Drawing.Point(303, 3);
             this.BtnCloseFrom.Name = "BtnCloseFrom";
             this.BtnCloseFrom.Size = new System.Drawing.Size(101, 29);
             this.BtnCloseFrom.TabIndex = 62;

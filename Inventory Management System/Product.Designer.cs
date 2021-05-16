@@ -105,10 +105,10 @@ namespace Inventory_Management_System
             // gvProduct
             // 
             this.gvProduct.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gvProduct.Location = new System.Drawing.Point(31, 112);
+            this.gvProduct.Location = new System.Drawing.Point(31, 79);
             this.gvProduct.Name = "gvProduct";
             this.gvProduct.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.gvProduct.Size = new System.Drawing.Size(1027, 252);
+            this.gvProduct.Size = new System.Drawing.Size(928, 230);
             this.gvProduct.TabIndex = 80;
             this.gvProduct.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gvProduct_CellDoubleClick);
             // 
@@ -182,7 +182,7 @@ namespace Inventory_Management_System
             // 
             this.lbCost.AutoSize = true;
             this.lbCost.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbCost.Location = new System.Drawing.Point(337, 38);
+            this.lbCost.Location = new System.Drawing.Point(336, 38);
             this.lbCost.Name = "lbCost";
             this.lbCost.Size = new System.Drawing.Size(38, 19);
             this.lbCost.TabIndex = 87;
@@ -192,7 +192,7 @@ namespace Inventory_Management_System
             // 
             this.lbTransmission.AutoSize = true;
             this.lbTransmission.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbTransmission.Location = new System.Drawing.Point(337, 70);
+            this.lbTransmission.Location = new System.Drawing.Point(336, 70);
             this.lbTransmission.Name = "lbTransmission";
             this.lbTransmission.Size = new System.Drawing.Size(86, 19);
             this.lbTransmission.TabIndex = 88;
@@ -202,7 +202,7 @@ namespace Inventory_Management_System
             // 
             this.lbPssngCapacity.AutoSize = true;
             this.lbPssngCapacity.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbPssngCapacity.Location = new System.Drawing.Point(337, 142);
+            this.lbPssngCapacity.Location = new System.Drawing.Point(336, 142);
             this.lbPssngCapacity.Name = "lbPssngCapacity";
             this.lbPssngCapacity.Size = new System.Drawing.Size(63, 19);
             this.lbPssngCapacity.TabIndex = 89;
@@ -242,7 +242,7 @@ namespace Inventory_Management_System
             // 
             this.dptMFGDate.AutoSize = true;
             this.dptMFGDate.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dptMFGDate.Location = new System.Drawing.Point(337, 0);
+            this.dptMFGDate.Location = new System.Drawing.Point(336, 0);
             this.dptMFGDate.Name = "dptMFGDate";
             this.dptMFGDate.Size = new System.Drawing.Size(126, 19);
             this.dptMFGDate.TabIndex = 93;
@@ -252,7 +252,7 @@ namespace Inventory_Management_System
             // 
             this.lbFuelTyp.AutoSize = true;
             this.lbFuelTyp.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbFuelTyp.Location = new System.Drawing.Point(337, 106);
+            this.lbFuelTyp.Location = new System.Drawing.Point(336, 106);
             this.lbFuelTyp.Name = "lbFuelTyp";
             this.lbFuelTyp.Size = new System.Drawing.Size(69, 19);
             this.lbFuelTyp.TabIndex = 94;
@@ -270,28 +270,28 @@ namespace Inventory_Management_System
             // 
             // DTPMfgDate
             // 
-            this.DTPMfgDate.Location = new System.Drawing.Point(501, 3);
+            this.DTPMfgDate.Location = new System.Drawing.Point(500, 3);
             this.DTPMfgDate.Name = "DTPMfgDate";
             this.DTPMfgDate.Size = new System.Drawing.Size(200, 20);
             this.DTPMfgDate.TabIndex = 96;
             // 
             // txtModel
             // 
-            this.txtModel.Location = new System.Drawing.Point(121, 73);
+            this.txtModel.Location = new System.Drawing.Point(120, 73);
             this.txtModel.Name = "txtModel";
             this.txtModel.Size = new System.Drawing.Size(185, 20);
             this.txtModel.TabIndex = 97;
             // 
             // txtCapacity
             // 
-            this.txtCapacity.Location = new System.Drawing.Point(501, 145);
+            this.txtCapacity.Location = new System.Drawing.Point(500, 145);
             this.txtCapacity.Name = "txtCapacity";
             this.txtCapacity.Size = new System.Drawing.Size(200, 20);
             this.txtCapacity.TabIndex = 98;
             // 
             // txtCost
             // 
-            this.txtCost.Location = new System.Drawing.Point(501, 41);
+            this.txtCost.Location = new System.Drawing.Point(500, 41);
             this.txtCost.Name = "txtCost";
             this.txtCost.Size = new System.Drawing.Size(200, 20);
             this.txtCost.TabIndex = 99;
@@ -299,14 +299,14 @@ namespace Inventory_Management_System
             // 
             // txtMake
             // 
-            this.txtMake.Location = new System.Drawing.Point(121, 109);
+            this.txtMake.Location = new System.Drawing.Point(120, 109);
             this.txtMake.Name = "txtMake";
             this.txtMake.Size = new System.Drawing.Size(185, 20);
             this.txtMake.TabIndex = 100;
             // 
             // txtColour
             // 
-            this.txtColour.Location = new System.Drawing.Point(121, 145);
+            this.txtColour.Location = new System.Drawing.Point(120, 145);
             this.txtColour.Name = "txtColour";
             this.txtColour.Size = new System.Drawing.Size(185, 20);
             this.txtColour.TabIndex = 101;
@@ -327,7 +327,7 @@ namespace Inventory_Management_System
             "Automatic",
             "Hybrid",
             "Manual"});
-            this.combobxTransmission.Location = new System.Drawing.Point(501, 73);
+            this.combobxTransmission.Location = new System.Drawing.Point(500, 73);
             this.combobxTransmission.Name = "combobxTransmission";
             this.combobxTransmission.Size = new System.Drawing.Size(200, 21);
             this.combobxTransmission.TabIndex = 103;
@@ -341,7 +341,7 @@ namespace Inventory_Management_System
             "Ethanol",
             "Diesel",
             "Gasoline"});
-            this.combobxFuelTyp.Location = new System.Drawing.Point(501, 109);
+            this.combobxFuelTyp.Location = new System.Drawing.Point(500, 109);
             this.combobxFuelTyp.Name = "combobxFuelTyp";
             this.combobxFuelTyp.Size = new System.Drawing.Size(200, 21);
             this.combobxFuelTyp.TabIndex = 104;
@@ -353,7 +353,7 @@ namespace Inventory_Management_System
             this.combobxStatus.Items.AddRange(new object[] {
             "New",
             "Used"});
-            this.combobxStatus.Location = new System.Drawing.Point(121, 41);
+            this.combobxStatus.Location = new System.Drawing.Point(120, 41);
             this.combobxStatus.Name = "combobxStatus";
             this.combobxStatus.Size = new System.Drawing.Size(185, 21);
             this.combobxStatus.TabIndex = 105;
@@ -364,7 +364,7 @@ namespace Inventory_Management_System
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 35.2459F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 64.7541F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 164F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 276F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 277F));
             this.tableLayoutPanel1.Controls.Add(this.txtVIN, 1, 0);
             this.tableLayoutPanel1.Controls.Add(this.txtCapacity, 3, 4);
             this.tableLayoutPanel1.Controls.Add(this.combobxFuelTyp, 3, 3);
@@ -385,7 +385,7 @@ namespace Inventory_Management_System
             this.tableLayoutPanel1.Controls.Add(this.combobxStatus, 1, 1);
             this.tableLayoutPanel1.Controls.Add(this.lbVin, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.lbStatus, 0, 1);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(96, 403);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(96, 339);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 5;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 54.28571F));
@@ -399,7 +399,7 @@ namespace Inventory_Management_System
             // 
             // txtVIN
             // 
-            this.txtVIN.Location = new System.Drawing.Point(121, 3);
+            this.txtVIN.Location = new System.Drawing.Point(120, 3);
             this.txtVIN.Name = "txtVIN";
             this.txtVIN.Size = new System.Drawing.Size(185, 20);
             this.txtVIN.TabIndex = 110;
@@ -431,7 +431,7 @@ namespace Inventory_Management_System
             this.tableLayoutPanel2.Controls.Add(this.btnUpdate, 1, 0);
             this.tableLayoutPanel2.Controls.Add(this.btnDelete, 2, 0);
             this.tableLayoutPanel2.Controls.Add(this.btnReset, 3, 0);
-            this.tableLayoutPanel2.Location = new System.Drawing.Point(174, 596);
+            this.tableLayoutPanel2.Location = new System.Drawing.Point(174, 527);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 1;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -443,7 +443,7 @@ namespace Inventory_Management_System
             this.lblUserInfo.AutoSize = true;
             this.lblUserInfo.Font = new System.Drawing.Font("Times New Roman", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblUserInfo.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.lblUserInfo.Location = new System.Drawing.Point(400, 367);
+            this.lblUserInfo.Location = new System.Drawing.Point(400, 312);
             this.lblUserInfo.Name = "lblUserInfo";
             this.lblUserInfo.Size = new System.Drawing.Size(191, 15);
             this.lblUserInfo.TabIndex = 109;
